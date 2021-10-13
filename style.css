@@ -172,7 +172,7 @@ main {
 }
 .card-content {
   top: 80px;
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -340,7 +340,7 @@ main {
   width: 30px;
   padding: 10px;
   position: absolute;
-  z-index: 100;
+  z-index: 1;
   background-color: white;
   border-radius: 50%;
   -webkit-border-radius: 50%;
